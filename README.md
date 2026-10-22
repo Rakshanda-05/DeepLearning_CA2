@@ -1,6 +1,8 @@
 # 🛡️ Cyberbullying & Toxic Comment Detection System
 **Continuous Assessment (CA1) - Deep Learning Project**  
 *Built with TensorFlow, Keras, and Bidirectional Recurrent Neural Networks (RNN/BiLSTM & CNN-BiLSTM)*
+https://detoxifynet.streamlit.app/
+
 
 ---
 
@@ -16,36 +18,6 @@ Online cyberbullying and hostile communication represent significant threats on 
 
 ---
 
-## 📁 Repository Structure
-```
-cyberbullying_detection/
-├── data/
-│   ├── cyberbullying_dataset.csv     # Balanced corpus of social media comments
-│   ├── make_dataset.py               # Dataset generation and benchmark script
-│   └── test_split.npz                # Held-out unseen test set
-├── notebooks/
-│   ├── Cyberbullying_Detection_Deep_Learning.ipynb  # Interactive Jupyter Notebook
-│   └── make_notebook.py              # Notebook generation utility
-├── reports/
-│   ├── CA1_Deep_Learning_Project_Report.md         # Full Academic Project Report
-│   ├── bilstm_training_curves.png    # Training vs Validation Loss & Accuracy
-│   ├── confusion_matrix.png          # Test set Confusion Matrix heatmap
-│   ├── roc_curve.png                 # ROC-AUC curve
-│   └── test_evaluation_report.json   # Numerical evaluation metrics
-├── saved_models/
-│   ├── bilstm_model.keras            # Trained model weights in Keras 3 format
-│   └── tokenizer.pkl                 # Fitted Keras Tokenizer
-├── src/
-│   ├── model.py                      # BiLSTM and Hybrid CNN-BiLSTM architectures
-│   ├── preprocess.py                 # Text cleaning, tokenization & padding
-│   ├── train.py                      # Training pipeline with callbacks
-│   ├── evaluate.py                   # Test set evaluation and plot generation
-│   └── predict.py                    # Real-time CLI inference
-├── app.py                            # Interactive Streamlit Web Application
-├── requirements.txt                  # Python dependencies
-├── VIVA_PREPARATION_GUIDE.md         # Comprehensive Q&A for Viva examination
-└── README.md                         # Quickstart documentation
-```
 
 ---
 
